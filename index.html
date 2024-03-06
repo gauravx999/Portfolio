@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Personal Portfolio </title>
+  <link rel="shortcut icon" href="logo1.png" type="image/x-icon">  
+  <link rel="stylesheet" href="global.css" />
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Img/logo1.png" class="logo" />
+        <ul id="hamburger">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About me">About me</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+    
+       <i class="fas fa-times" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="toggleMenu()"></i>
+      </nav>
+      
+
+     <!--  ------ home--------->
+   
+    <div id="home">
+      <div class="container">
+        <div class="header-para">
+          <h1>Hello!</h1>
+          <h2>I'm <span class="name">Gaurav Singh</span> from Mumbai</h2>
+          <h1>
+            <a href="" class="typewrite" data-period="2000" 
+            data-type='[ " I am an Innovator.", " coding is my passion.", "Develop software and website  ","Blend logic with creativity. " ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          <a href="#contact" class="cta-button">Contact Me</a>
+          <br><br><br>
+        </div>
+      </div>
+    </div>
+    </div>  
+
+
+  <!-- About me -->
+  <section id ="About me"> </section>
+  <div id="about">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Img/circle.jpeg" />
+      </div>
+      <div class="about-col-2">
+        <h1>A little bit about myself</h1>
+        <p>"Passionate and dedicated My profession with a strong background in relevant skills or expertise. Committed to delivering high-quality work and continuously improving through learning and growth."</p>
+
+        <div class="about-tab">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+        </div>
+        <div class="tab-content active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX </span><br>Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br>Web app Development</li>
+            <li><span>App Development</span><br>Building Android Apps
+            <li>
+          </ul>
+        </div>
+        <div class="tab-content" id="education">
+          <ul>
+            <li><span>2022 - 2025 </span><br>BSCIT From University of Mumbai</li>
+            <li><span>2020 - 2022</span><br>HSC From Durgadevi Saraf College</li>
+            <li><span>2007-2020</span><br>Shree Vishwakarma High School
+            <li>
+          </ul>
+        </div>
+        <div class="tab-content" id="experience">
+          <ul>
+            <li><span>2024 - Current </span><br>Internship at CodSoft</li>
+            <li><span> August 2023 - November 2023</span><br>Freelancing</li>
+            <li><span>June 2023</span><br>Started learning Web Development from online Source</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  
+    <br><br><br>
+    <br><br><br>
+
+  <center><h1 class="background">My Services</h1></center>
+    
+  <br><br><br>
+  <br><br><br>
+  
+  
+  <div class="services">
+    
+    
+      <div class="service">
+        <h3>Responsive Web Design </h3>
+      
+        <p>I can create responsive and mobile-friendly websites to ensure they look great on all devices.
+          <br>
+          <a href="#home">learn more</a>
+        </p>
+      </div>
+      <div class="service">
+        <h3>Frontend Development</h3>
+        <p>
+
+          I specialize in HTML, CSS, and JavaScript for building web interfaces, and I'm experienced in React.js for
+          dynamic web applications and Axios for asynchronous HTTP requests<br>
+          <a href="#">learn more</a>
+        </p>
+      </div>
+      <div class="service">
+        <h3>Website Maintenance</h3>
+        <p>I provide ongoing support and maintenance to keep your website running smoothly and up-to-date.
+          <br>
+          <a href="#">learn more</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Portfolio -->
+  <br><br><br>
+  <section id ="Project"></section>
+  <div id="portfolio">
+    <div class="section">
+      <br>
+      <center><h1 class="a">Project</h1></center>
+      <br><br>
+    
+
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="Img/coder-logo.png" alt="Project 1">
+
+          <h3>Project 1</h3>
+          <p> I have Creating a coding learning website can be a valuable resource for aspiring programmers and developers. It's a great way to share knowledge, tutorials, and coding exercises with your audience. </p>
+
+        </div>
+        <div class="portfolio-item">
+          <img src="Img/scan.png" alt="Project 2">
+
+          <h3>Project 2</h3>
+          <p>
+            Creating a QR code generator website is a useful tool for generating QR codes that encode various types of information, such as URLs, text, contact information, or Wi-Fi network credentials. </p>
+
+        </div>
+        <div class="portfolio-item">
+          <img src="Img/pass.png" alt="Project 3">
+
+          <h3>Project 3</h3>
+          <p>
+            This project is a random password generator is a useful tool for creating strong and secure passwords. Here are a few tips to enhance your random password generator </p>
+
+        </div>
+      </div>
+      <a href="#home" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ---Contact me----- -->
+
+  <section id ="contact"></section>
+
+  <div class="contact-container">
+    <div class="row">
+      <div class="left">
+        <h1>Contact Me</h1>
+
+      <!--- <div class="social-media">
+          <p><i class="fa-solid fa-paper-plane"></i>gauravsinghb2004b@gmail.com</p>
+          <p><i class="fa-solid fa-phone-square"></i>9934794993</p>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://telegram.me/your-telegram-handle" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/your-github-profile" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <div><a href="#home" class="btn btn2">Download CV</a></div>
+        </div>
+     
+      </div>-->
+
+      <div class="media">
+        <p><i class="fa-solid fa-paper-plane"></i>gauravsinghb2004b@gmail.com</p>
+        <p><i class="fa-solid fa-phone-square"></i>9934794993</p>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <!-- Corrected the icon class for Telegram -->
+        <a href="https://telegram.me/your-telegram-handle" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://github.com/your-github-profile" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <div><a href="#home" class="btn btn2">Download CV</a></div>
+      </div>
+      </div>
+      
+      <div class="right">
+        <div class="contact-form">
+
+          <!-- Embed Google Form -->
+          <form>
+
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="8" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2" >Submit</button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="copyright">
+    <p>&copy; 2024 My Portfolio. All rights reserved.Gaurav singh</p>
+</footer>
+
+<!--================about me=============-->
+<!------------java script-------->
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    
+  
+    }
+    // Menu fro Hamburger
+    var menu = document.getElementById ("hamburger");
+    function toggleMenu() {
+    menu.style.right="0"
+    }
+    function closeMenu() {
+    menu.style.right="-200px"
+    }
+
+  </script>
+
+<!-- -========= typing========-->
+
+<script>
+var TxtType = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtType.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+  this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+  this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 200 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+  delta = this.period;
+  this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+  this.isDeleting = false;
+  this.loopNum++;
+  delta = 500;
+  }
+
+  setTimeout(function() {
+  that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('typewrite');
+  for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+  document.body.appendChild(css);
+};
+
+</script>
+
+
+</body>
+
+</html>
